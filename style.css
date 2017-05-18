@@ -1,0 +1,112 @@
+/*
+ * Custom CSS For Autocomplete
+ * Created By Hitvardhan Singh Solanki
+ */
+
+/**
+ * Importing the google fonts
+ */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+
+/**
+ * main body tag styling
+ */
+body{
+  background: url("./images/background.jpg") center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+}
+/*
+ * custom-container styling
+ */
+.my-container{
+  margin-top: 20%;
+}
+
+.custom-container{
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 0px;
+}
+/**
+ * header styling
+ */
+.header-main{
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.blue{
+  color: rgb(189, 249, 129);
+  font-weight: bold;
+}
+/*
+ * Input Tag Styling
+ */
+input{
+  width: 90%;
+  border: none;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+input:focus{
+  outline: none !important;
+}
+
+/*
+ * Auto Complete list styling
+ */
+.ui-widget{
+  margin: 0px;
+}
+
+.ui-helper-hidden-accessible{
+  display: none;
+}
+
+.ui-menu{
+  background-color: white;
+  list-style: none;
+  width: 30px;
+}
+
+.ui-menu li:hover, .ui-menu li:active, .ui-state-active{
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+#ui-id-1{
+  padding: 15px 15px;
+}
+
+/*
+ * Footer Styling
+ */
+footer{
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+footer a {
+  color: rgb(215, 97, 21);
+}
+
+/*
+ * Media Quries
+ */
+@media (max-width: 450px) {
+  .header-main{
+    font-size: 40px;
+  }
+  footer{
+    font-size: 10px;
+  }
+}

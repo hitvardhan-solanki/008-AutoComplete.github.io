@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Autocomplete City</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <!-- Main Container -->
+    <div class="container my-container">
+      <h1 class="header-main text-center">Search <strong class="blue">city</strong></h1>
+    <div class="container custom-container">
+    <div class="ui-widget text-center">
+      <input id="city" placeholder="search-city">
+    </div>
+
+    <!-- <div class="ui-widget" id="log"> -->
+       <!-- any further manuplations for the selected item -->
+    <!-- </div> -->
+    <!-- Footer Section -->
+    <footer class="footer text-center">
+      powered by <a href="gd.geobytes.com">gd.geobytes.com</a><br />
+      created by <a href="#">Hitvardhan Singh Solanki</a>
+    </footer>
+
+      <!-- scripts -->
+      <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
+      <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+
+      <!-- Jquery Plugin -->
+      <script src="./js/main.js" charset="utf-8"></script>
+      <script>
+      $( function() {
+        $(" #city ").autoCompleteCity();
+      });
+      </script>
+      </div>
+    </div>
+  </body>
+</html>
